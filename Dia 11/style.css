@@ -1,0 +1,15 @@
+body{
+    background: black;
+}
+.card{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition:2s ease;
+
+
+}
+.card:hover{
+    transform: rotateY(360deg);
+}
